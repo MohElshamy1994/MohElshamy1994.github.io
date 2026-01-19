@@ -1,6 +1,7 @@
 # Quick Start Guide - Deploy in 5 Minutes! ⚡
 
 ## Prerequisites
+
 - GitHub account (you already have: MohElshamy1994)
 - Git installed on your computer
 
@@ -67,14 +68,17 @@ Wait ~1 minute, then visit:
 ## ⚠️ Troubleshooting
 
 ### "Deploy" action failed?
+
 - Check that you enabled "Read and write permissions" in Step 3
 - Re-run the action from the Actions tab
 
 ### Site shows 404?
+
 - Make sure you selected **gh-pages** branch (not main)
 - Wait a few more minutes for GitHub Pages to deploy
 
 ### Site shows default content?
+
 - Make sure you committed and pushed your changes in Step 2
 - Check that the files were actually modified (run `git status`)
 
@@ -83,10 +87,13 @@ Wait ~1 minute, then visit:
 ## 🎨 Before You Deploy (Optional but Recommended)
 
 ### Add Your Photo
+
 Replace `assets/img/prof_pic.jpg` with your professional headshot.
 
 ### Add Project Images
+
 Add images to `assets/img/` and update project files:
+
 - `_projects/1_project.md` → change `img: assets/img/your-image.jpg`
 - Repeat for all projects
 
@@ -95,12 +102,14 @@ Add images to `assets/img/` and update project files:
 ## 📱 After Deployment
 
 ### Share Your Portfolio
+
 - Add to your LinkedIn profile
 - Include in your email signature
 - Share on your CV/resume
 - Add to your GitHub profile README
 
 ### Keep It Updated
+
 - Add new projects as you complete them
 - Update your CV regularly
 - Add blog posts about your work
@@ -111,4 +120,3 @@ Add images to `assets/img/` and update project files:
 **Need detailed instructions?** See `SETUP_INSTRUCTIONS.md`
 
 **Questions?** Check `CUSTOMIZATION_SUMMARY.md` for what's been configured.
-

@@ -5,6 +5,7 @@ This is your personal portfolio website built with the al-folio Jekyll theme, cu
 ## ✅ What's Been Configured
 
 ### 1. Personal Information
+
 - **Name**: Mohamed Elshamy
 - **Email**: elshamy@nmsu.edu
 - **GitHub**: MohElshamy1994
@@ -13,13 +14,16 @@ This is your personal portfolio website built with the al-folio Jekyll theme, cu
 - **ResearchGate**: Mohamed-Elshamy-6
 
 ### 2. About Page
+
 - Professional summary highlighting 8+ years of hardware design experience
 - Research focus on SoC power and thermal modeling
 - Technical proficiency overview
 - Professional background
 
 ### 3. CV Section
+
 Complete CV with:
+
 - Education (PhD, MSc x2, BSc)
 - Work Experience (Research Assistant, Senior Hardware Design, etc.)
 - Technical Skills (Programming, EDA Tools, MCUs, Protocols)
@@ -28,7 +32,9 @@ Complete CV with:
 - Relevant Coursework
 
 ### 4. Projects Showcase
+
 Created 7 hardware design projects:
+
 1. **Automotive Telematics Device** - Vehicle tracking and diagnostics
 2. **Solar MPPT Controller** - High-efficiency solar charge controller
 3. **IoT Smart Home Controller** - Multi-protocol home automation
@@ -38,6 +44,7 @@ Created 7 hardware design projects:
 7. **SoC Power & Thermal Modeling** - PhD research project
 
 ### 5. News/Announcements
+
 - PhD program start
 - Completion of UAE position
 - NMSU Data Mining Contest achievement
@@ -103,22 +110,27 @@ After ~1 minute, your site will be live at:
 ## 🎨 Customization Tips
 
 ### Add Your Profile Picture
+
 1. Replace `assets/img/prof_pic.jpg` with your professional photo
 2. Recommended size: 400x400 pixels or larger
 3. Format: JPG or PNG
 
 ### Add Project Images
+
 - Add images to `assets/img/` folder
 - Update the `img:` field in each project's front matter
 - Use descriptive names (e.g., `telematics_board.jpg`)
 
 ### Update Publications
+
 Edit `_bibliography/papers.bib` to add your publications in BibTeX format.
 
 ### Customize Colors
+
 Edit `_sass/_themes.scss` to change the theme color from purple to your preference.
 
 ### Add Blog Posts (Optional)
+
 Create new files in `_posts/` folder following the naming convention:
 `YYYY-MM-DD-title.md`
 
@@ -140,9 +152,11 @@ To test locally before deploying:
 1. Install [Docker Desktop for Windows](https://www.docker.com/products/docker-desktop)
 2. Open PowerShell in your workspace
 3. Run:
+
 ```powershell
 docker compose up
 ```
+
 4. Open browser to `http://localhost:8080`
 
 ### Using WSL (Windows Subsystem for Linux)
@@ -165,10 +179,10 @@ Follow the instructions in `INSTALL.md` for WSL setup.
 ## 📧 Contact
 
 If you need assistance with your portfolio, feel free to reach out:
+
 - Email: elshamy@nmsu.edu
 - LinkedIn: [moh-elshamy](https://www.linkedin.com/in/moh-elshamy/)
 
 ---
 
 **Good luck with your portfolio! 🎉**
-
