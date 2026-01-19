@@ -2,7 +2,7 @@
 # the commented lines are the default social media links supported by the template
 # the socials will be displayed in the order they are defined here
 
-email: elshamy@nmsu.edu # your email address
+# email: elshamy@nmsu.edu # your email address (disabled - removed from navbar)
 linkedin_username: moh-elshamy # your LinkedIn user name
 github_username: MohElshamy1994 # your GitHub user name
 scholar_userid: OIW1wDYAAAAJ # your Google Scholar ID
