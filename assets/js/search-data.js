@@ -502,18 +502,18 @@ ninja.data = [{
           window.open("mailto:%65%6C%73%68%61%6D%79@%6E%6D%73%75.%65%64%75", "_blank");
         },
       },{
-        id: 'social-github',
-        title: 'GitHub',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://github.com/MohElshamy1994", "_blank");
-        },
-      },{
         id: 'social-linkedin',
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
           window.open("https://www.linkedin.com/in/moh-elshamy", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/MohElshamy1994", "_blank");
         },
       },{
         id: 'social-scholar',
@@ -528,6 +528,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://www.researchgate.net/profile/Mohamed-Elshamy-6/", "_blank");
+        },
+      },{
+        id: 'social-youtube',
+        title: 'YouTube',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://youtube.com/@AIPlus_ME", "_blank");
         },
       },{
         id: 'social-rss',
