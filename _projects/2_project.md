@@ -1,81 +1,55 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
+title: Solar MPPT Controller
+description: Maximum Power Point Tracking controller for solar panel systems
 img: assets/img/3.jpg
 importance: 2
 category: work
-giscus_comments: true
+related_publications: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Project Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Designed a high-efficiency Maximum Power Point Tracking (MPPT) controller for solar panel installations, optimizing energy harvest across varying environmental conditions.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+## Key Features
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+- **MPPT Algorithm**: Perturb & Observe (P&O) with adaptive step size
+- **High Efficiency**: >97% conversion efficiency
+- **Wide Input Range**: 12V-48V solar panel input
+- **Battery Management**: Intelligent charging for lead-acid and lithium batteries
+- **Protection Systems**: Overvoltage, overcurrent, reverse polarity, and thermal protection
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## Technical Implementation
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+### Hardware Architecture
+- **Power Stage**: Synchronous buck converter with high-frequency switching (100kHz)
+- **Control**: STM32 microcontroller for MPPT algorithm execution
+- **Sensing**: High-precision voltage and current sensing circuits
+- **Display**: LCD interface for real-time monitoring
+- **Communication**: UART interface for data logging
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+### PCB Design Highlights
+- **4-layer PCB** with dedicated power and ground planes
+- **Thermal Management**: Copper pours and thermal vias for heat dissipation
+- **High-Current Traces**: Proper trace width calculations for 20A+ currents
+- **Low-Noise Analog Section**: Separated from switching noise sources
 
-{% raw %}
+### Control Algorithm
+- Implemented adaptive MPPT algorithm in embedded C
+- Real-time voltage and current sampling at 10kHz
+- Dynamic duty cycle adjustment for optimal power extraction
+- Battery state-of-charge (SoC) estimation
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+## Performance Metrics
 
-{% endraw %}
+- **Tracking Efficiency**: 99.5% under stable conditions
+- **Conversion Efficiency**: 97.2% at rated load
+- **Response Time**: <100ms to changing irradiance
+- **Temperature Range**: -20°C to +70°C operation
+
+## Technologies Used
+
+**Hardware**: Altium Designer, STM32, Synchronous Buck Converter, Current Sensing  
+**Software**: Embedded C, MPPT Algorithms  
+**Testing**: Power Analyzer, Thermal Camera, Environmental Chamber

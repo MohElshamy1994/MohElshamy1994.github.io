@@ -1,81 +1,50 @@
 ---
 layout: page
-title: project 1
-description: with background image
+title: Automotive Telematics Device
+description: Low-power telematics system for vehicle tracking and diagnostics
 img: assets/img/12.jpg
 importance: 1
 category: work
-related_publications: true
+related_publications: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Project Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Designed and validated a compact, automotive-grade telematics and tracking device with low-power architecture for deployment in police vehicles across the UAE.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+## Key Features
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+- **Real-time Vehicle Tracking**: Integrated GPS module for precise location monitoring
+- **OBD-II Diagnostics**: Full vehicle diagnostics and fault code reading
+- **Driver Behavior Monitoring**: Acceleration, braking, and speed pattern analysis
+- **GSM/GPRS Communication**: Reliable data transmission to central monitoring system
+- **Power Management**: Optimized power consumption for 24/7 operation
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## Technical Implementation
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+### Hardware Design
+- **Multi-layer PCB Design** (6 layers) using Altium Designer
+- **Microcontroller**: High-performance ARM Cortex-M series
+- **Communication Modules**: GSM/GPRS (SIM800), GPS (NEO-6M)
+- **Interfaces**: CAN bus for OBD-II, UART, I2C, SPI
+- **Power Supply**: Wide input range (9-36V) with buck converter and LDO regulators
+- **Protection**: Reverse polarity, overvoltage, and ESD protection
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+### Key Design Challenges Solved
+1. **EMI Mitigation**: Careful layout and grounding strategy for GSM/GPS coexistence
+2. **Automotive Environment**: Temperature range (-40°C to +85°C), vibration resistance
+3. **Power Efficiency**: Sleep modes and intelligent wake-up for extended battery life
+4. **Signal Integrity**: High-speed digital design with proper impedance matching
 
-{% raw %}
+## Results
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+- Successfully deployed in 500+ police vehicles
+- 99.9% uptime with reliable GPS tracking
+- Low power consumption: <50mA average current draw
+- Passed automotive EMC testing standards
 
-{% endraw %}
+## Technologies Used
+
+**Hardware**: Altium Designer, ARM Cortex-M, GSM/GPRS, GPS, CAN Bus  
+**Software**: Embedded C, FreeRTOS  
+**Testing**: Oscilloscope, Logic Analyzer, Spectrum Analyzer

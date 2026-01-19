@@ -1,80 +1,78 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
-importance: 3
-category: fun
+title: Battery Management System (BMS)
+description: Intelligent BMS for lithium-ion battery packs
+img: assets/img/11.jpg
+importance: 5
+category: work
+related_publications: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Project Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Developed a comprehensive Battery Management System (BMS) for lithium-ion battery packs used in electric vehicles and energy storage applications.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+## Core Functions
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+- **Cell Monitoring**: Individual cell voltage and temperature monitoring
+- **State Estimation**: Real-time SoC (State of Charge) and SoH (State of Health)
+- **Balancing**: Active cell balancing for optimal pack performance
+- **Protection**: Overvoltage, undervoltage, overcurrent, and thermal protection
+- **Communication**: CAN bus interface for system integration
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## Hardware Design
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+### Monitoring Circuit
+- **AFE IC**: Specialized battery management IC (e.g., BQ76940, LTC6811)
+- **Cell Count**: Supports 4S to 16S configurations
+- **Voltage Accuracy**: ±5mV per cell
+- **Temperature Sensors**: NTC thermistors on each cell group
+- **Current Sensing**: High-precision shunt-based measurement
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+### Control & Processing
+- **MCU**: STM32 with CAN interface
+- **Balancing**: MOSFET-based active balancing circuit
+- **Power Supply**: Isolated DC-DC converter from battery pack
+- **Safety**: Hardware-level cutoff relays
 
-{% raw %}
+### PCB Design Features
+- **High-Voltage Isolation**: Proper creepage and clearance distances
+- **Thermal Management**: Heat sinks for balancing MOSFETs
+- **EMI Considerations**: Filtered power supply and shielded traces
+- **Robust Connectors**: High-current battery terminals
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+## Safety Features
 
-{% endraw %}
+- **Multi-level Protection**:
+  - Hardware overcurrent detection
+  - Software-based predictive algorithms
+  - Thermal runaway prevention
+  - Short circuit protection
+
+- **Fault Diagnostics**:
+  - Cell voltage imbalance detection
+  - Temperature anomaly alerts
+  - Communication error handling
+  - Self-test routines
+
+## Performance Specifications
+
+- **Voltage Range**: 12V - 60V (configurable)
+- **Current Rating**: Up to 100A continuous
+- **Balancing Current**: 200mA per cell
+- **SoC Accuracy**: ±2%
+- **Operating Temperature**: -20°C to +60°C
+
+## Applications
+
+- Electric vehicles (EV)
+- E-bikes and e-scooters
+- Renewable energy storage systems
+- UPS and backup power systems
+- Marine and RV applications
+
+## Technologies Used
+
+**Hardware**: Altium Designer, Battery Management ICs, High-Current MOSFETs, CAN Bus  
+**Software**: Embedded C, Kalman Filtering, SoC Estimation Algorithms  
+**Testing**: Battery Cycler, Thermal Chamber, Load Banks

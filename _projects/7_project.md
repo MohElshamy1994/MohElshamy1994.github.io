@@ -1,81 +1,81 @@
 ---
 layout: page
-title: project 7
-description: with background image
-img: assets/img/4.jpg
-importance: 1
-category: work
+title: SoC Power & Thermal Modeling
+description: Research on power modeling for dynamic thermal management
+img: assets/img/7.jpg
+importance: 7
+category: research
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Research Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Ph.D. research focused on developing accurate power and thermal models for System-on-Chip (SoC) devices to enhance Dynamic Thermal Management (DTM) strategies for high-performance computing applications.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+## Research Objectives
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+- Develop accurate power consumption models for modern SoCs
+- Create thermal models that predict hotspot formation
+- Optimize DTM algorithms for improved performance and reliability
+- Validate models on real hardware platforms (Nvidia Jetson, Xilinx Zynq)
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## Methodology
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+### Power Modeling
+- **Workload Characterization**: Analysis of various computational workloads
+- **Component-Level Modeling**: CPU, GPU, memory, and I/O power profiling
+- **Machine Learning Approach**: Neural network-based power prediction
+- **Real-time Monitoring**: Hardware performance counters and power sensors
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+### Thermal Modeling
+- **Finite Element Analysis**: Thermal simulation of chip packages
+- **Thermal Resistance Networks**: Compact thermal models
+- **Hotspot Prediction**: Spatial and temporal thermal distribution
+- **Cooling System Integration**: Fan control and heat sink optimization
 
-{% raw %}
+### Validation Platform
+- **Hardware**: Nvidia Jetson AGX Xavier, Xilinx Zynq-7000
+- **Instrumentation**: Thermal cameras, thermocouples, power meters
+- **Benchmarks**: Standard workloads (SPEC, MLPerf, embedded benchmarks)
+- **Data Collection**: Custom Python scripts for automated testing
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+## Key Contributions
 
-{% endraw %}
+1. **Improved Accuracy**: Achieved <5% error in power prediction
+2. **Real-time Capability**: Models suitable for online DTM implementation
+3. **Workload-Aware DTM**: Adaptive thermal management based on workload type
+4. **Energy Efficiency**: 15-20% improvement in energy efficiency while maintaining performance
+
+## Technical Skills Applied
+
+- **Programming**: Python (NumPy, TensorFlow), C/C++, MATLAB
+- **Hardware**: Embedded Linux, GPIO, I2C, thermal sensors
+- **Simulation**: COMSOL, ANSYS Icepak, MATLAB Simulink
+- **Data Analysis**: Machine learning, statistical analysis, visualization
+
+## Publications & Presentations
+
+- Conference paper submissions in progress
+- Regular presentations at research group meetings
+- Collaboration with industry partners on thermal management solutions
+
+## Impact
+
+This research contributes to:
+- Extended battery life in mobile devices
+- Improved reliability of data center processors
+- Better performance-per-watt in edge computing
+- Reduced cooling costs in high-performance systems
+
+## Future Work
+
+- Integration with AI-based workload prediction
+- Extension to multi-chip modules and 3D-stacked ICs
+- Real-time optimization using reinforcement learning
+- Collaboration with chip manufacturers for early-stage design
+
+## Technologies Used
+
+**Hardware**: Nvidia Jetson, Xilinx Zynq, Thermal Sensors, Power Monitors  
+**Software**: Python, TensorFlow, MATLAB, Embedded Linux  
+**Tools**: Thermal Camera, Oscilloscope, Power Analyzer, COMSOL
