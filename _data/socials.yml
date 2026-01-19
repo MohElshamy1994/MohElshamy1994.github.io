@@ -3,9 +3,10 @@
 # the socials will be displayed in the order they are defined here
 
 email: elshamy@nmsu.edu # your email address
-github_username: MohElshamy1994 # your GitHub user name
 linkedin_username: moh-elshamy # your LinkedIn user name
+github_username: MohElshamy1994 # your GitHub user name
 scholar_userid: OIW1wDYAAAAJ # your Google Scholar ID
 research_gate_profile: Mohamed-Elshamy-6 # your profile on ResearchGate
+youtube_id: AIPlus_ME # your youtube channel id (youtube.com/@<youtube_id>)
 # cv_pdf: /assets/pdf/MElshamy_CV_2026_Hardware.pdf # path to your CV PDF file
 rss_icon: false # comment this line to hide the RSS icon
