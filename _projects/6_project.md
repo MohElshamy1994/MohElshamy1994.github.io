@@ -15,6 +15,7 @@ Served as Manager of the Multi-Layer PCB Laboratory at the Egyptian Armed Forces
 ## Laboratory Capabilities
 
 ### PCB Specifications
+
 - **Layer Count**: Up to 8 layers
 - **Minimum Track/Space**: 4mil/4mil (0.1mm)
 - **Minimum Via Size**: 8mil (0.2mm) diameter
@@ -23,6 +24,7 @@ Served as Manager of the Multi-Layer PCB Laboratory at the Egyptian Armed Forces
 - **Surface Finish**: HASL, ENIG, OSP
 
 ### Manufacturing Processes
+
 - **Imaging**: Direct laser imaging (DLI) for high-precision patterns
 - **Etching**: Automated spray etching system
 - **Drilling**: CNC drilling with micro-drill capability
@@ -33,6 +35,7 @@ Served as Manager of the Multi-Layer PCB Laboratory at the Egyptian Armed Forces
 ## Quality Assurance
 
 ### Testing & Inspection
+
 - **Electrical Testing**: Flying probe and bed-of-nails testers
 - **Visual Inspection**: AOI (Automated Optical Inspection)
 - **Dimensional Accuracy**: Coordinate measuring machine (CMM)
@@ -40,6 +43,7 @@ Served as Manager of the Multi-Layer PCB Laboratory at the Egyptian Armed Forces
 - **Impedance Testing**: TDR for controlled impedance verification
 
 ### Quality Standards
+
 - Implemented IPC-A-600 (Acceptability of Printed Boards)
 - IPC-6012 (Qualification and Performance Specification)
 - ISO 9001 quality management procedures

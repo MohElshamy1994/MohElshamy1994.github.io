@@ -23,6 +23,7 @@ Developed a versatile IoT smart home controller supporting multiple communicatio
 ## Hardware Design
 
 ### Core Components
+
 - **Main Controller**: ESP32 (dual-core with Wi-Fi/BT)
 - **Secondary MCU**: STM32 for real-time control tasks
 - **Communication**: Zigbee module, RF transceiver
@@ -30,6 +31,7 @@ Developed a versatile IoT smart home controller supporting multiple communicatio
 - **I/O Expansion**: GPIO expanders for 32+ control channels
 
 ### PCB Specifications
+
 - **4-layer PCB design** with controlled impedance
 - **Antenna Design**: On-board PCB antenna with matching network
 - **ESD Protection**: TVS diodes on all exposed interfaces

@@ -23,6 +23,7 @@ Developed a comprehensive Battery Management System (BMS) for lithium-ion batter
 ## Hardware Design
 
 ### Monitoring Circuit
+
 - **AFE IC**: Specialized battery management IC (e.g., BQ76940, LTC6811)
 - **Cell Count**: Supports 4S to 16S configurations
 - **Voltage Accuracy**: ±5mV per cell
@@ -30,12 +31,14 @@ Developed a comprehensive Battery Management System (BMS) for lithium-ion batter
 - **Current Sensing**: High-precision shunt-based measurement
 
 ### Control & Processing
+
 - **MCU**: STM32 with CAN interface
 - **Balancing**: MOSFET-based active balancing circuit
 - **Power Supply**: Isolated DC-DC converter from battery pack
 - **Safety**: Hardware-level cutoff relays
 
 ### PCB Design Features
+
 - **High-Voltage Isolation**: Proper creepage and clearance distances
 - **Thermal Management**: Heat sinks for balancing MOSFETs
 - **EMI Considerations**: Filtered power supply and shielded traces

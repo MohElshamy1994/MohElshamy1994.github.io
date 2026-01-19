@@ -22,18 +22,21 @@ Ph.D. research focused on developing accurate power and thermal models for Syste
 ## Methodology
 
 ### Power Modeling
+
 - **Workload Characterization**: Analysis of various computational workloads
 - **Component-Level Modeling**: CPU, GPU, memory, and I/O power profiling
 - **Machine Learning Approach**: Neural network-based power prediction
 - **Real-time Monitoring**: Hardware performance counters and power sensors
 
 ### Thermal Modeling
+
 - **Finite Element Analysis**: Thermal simulation of chip packages
 - **Thermal Resistance Networks**: Compact thermal models
 - **Hotspot Prediction**: Spatial and temporal thermal distribution
 - **Cooling System Integration**: Fan control and heat sink optimization
 
 ### Validation Platform
+
 - **Hardware**: Nvidia Jetson AGX Xavier, Xilinx Zynq-7000
 - **Instrumentation**: Thermal cameras, thermocouples, power meters
 - **Benchmarks**: Standard workloads (SPEC, MLPerf, embedded benchmarks)
@@ -62,6 +65,7 @@ Ph.D. research focused on developing accurate power and thermal models for Syste
 ## Impact
 
 This research contributes to:
+
 - Extended battery life in mobile devices
 - Improved reliability of data center processors
 - Better performance-per-watt in edge computing

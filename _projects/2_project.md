@@ -23,6 +23,7 @@ Designed a high-efficiency Maximum Power Point Tracking (MPPT) controller for so
 ## Technical Implementation
 
 ### Hardware Architecture
+
 - **Power Stage**: Synchronous buck converter with high-frequency switching (100kHz)
 - **Control**: STM32 microcontroller for MPPT algorithm execution
 - **Sensing**: High-precision voltage and current sensing circuits
@@ -30,12 +31,14 @@ Designed a high-efficiency Maximum Power Point Tracking (MPPT) controller for so
 - **Communication**: UART interface for data logging
 
 ### PCB Design Highlights
+
 - **4-layer PCB** with dedicated power and ground planes
 - **Thermal Management**: Copper pours and thermal vias for heat dissipation
 - **High-Current Traces**: Proper trace width calculations for 20A+ currents
 - **Low-Noise Analog Section**: Separated from switching noise sources
 
 ### Control Algorithm
+
 - Implemented adaptive MPPT algorithm in embedded C
 - Real-time voltage and current sampling at 10kHz
 - Dynamic duty cycle adjustment for optimal power extraction

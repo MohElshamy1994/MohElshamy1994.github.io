@@ -23,6 +23,7 @@ Designed and validated a compact, automotive-grade telematics and tracking devic
 ## Technical Implementation
 
 ### Hardware Design
+
 - **Multi-layer PCB Design** (6 layers) using Altium Designer
 - **Microcontroller**: High-performance ARM Cortex-M series
 - **Communication Modules**: GSM/GPRS (SIM800), GPS (NEO-6M)
@@ -31,6 +32,7 @@ Designed and validated a compact, automotive-grade telematics and tracking devic
 - **Protection**: Reverse polarity, overvoltage, and ESD protection
 
 ### Key Design Challenges Solved
+
 1. **EMI Mitigation**: Careful layout and grounding strategy for GSM/GPS coexistence
 2. **Automotive Environment**: Temperature range (-40°C to +85°C), vibration resistance
 3. **Power Efficiency**: Sleep modes and intelligent wake-up for extended battery life

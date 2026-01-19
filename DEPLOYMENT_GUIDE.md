@@ -11,11 +11,13 @@ This will completely replace your ML portfolio with this hardware portfolio.
 #### Steps:
 
 1. **Add your existing repository as remote:**
+
 ```powershell
 git remote add origin https://github.com/MohElshamy1994/MohElshamy1994.github.io.git
 ```
 
 2. **Force push to replace the content:**
+
 ```powershell
 git push -f origin main
 ```
@@ -82,15 +84,18 @@ git push -f origin main
 ## 🆘 Troubleshooting
 
 ### "Remote origin already exists"
+
 ```powershell
 git remote remove origin
 git remote add origin https://github.com/MohElshamy1994/MohElshamy1994.github.io.git
 ```
 
 ### "Failed to push"
+
 Make sure you have the correct permissions. You may need to authenticate with GitHub.
 
 ### Site shows old ML content
+
 - Clear your browser cache
 - Wait a few more minutes
 - Check that the GitHub Action completed successfully
@@ -98,4 +103,3 @@ Make sure you have the correct permissions. You may need to authenticate with Gi
 ---
 
 **Ready to deploy?** Let me know and I'll help you with the commands!
-

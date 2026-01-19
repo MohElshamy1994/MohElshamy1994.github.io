@@ -3,6 +3,7 @@
 ## ✅ Completed Customizations
 
 ### 1. Site Configuration (`_config.yml`)
+
 - ✅ Updated name: **Mohamed Elshamy**
 - ✅ Set email: elshamy@nmsu.edu
 - ✅ Updated site URL: https://MohElshamy1994.github.io
@@ -13,6 +14,7 @@
 - ✅ Set scholar name for publications
 
 ### 2. About Page (`_pages/about.md`)
+
 - ✅ Professional summary with 8+ years experience
 - ✅ Research focus on SoC power/thermal modeling
 - ✅ Technical proficiency highlights
@@ -20,6 +22,7 @@
 - ✅ Updated contact information and address
 
 ### 3. CV Data (`_data/cv.yml`)
+
 - ✅ Complete education history (PhD, 2x MSc, BSc)
 - ✅ All work experiences with detailed descriptions
 - ✅ Comprehensive technical skills section
@@ -28,6 +31,7 @@
 - ✅ Relevant coursework
 
 ### 4. Social Media Links (`_data/socials.yml`)
+
 - ✅ Email: elshamy@nmsu.edu
 - ✅ GitHub: MohElshamy1994
 - ✅ LinkedIn: moh-elshamy
@@ -35,6 +39,7 @@
 - ✅ ResearchGate: Mohamed-Elshamy-6
 
 ### 5. Projects Section
+
 Created 7 hardware design projects:
 
 1. **Automotive Telematics Device**
@@ -73,11 +78,13 @@ Created 7 hardware design projects:
    - Dynamic thermal management
 
 ### 6. News/Announcements
+
 - ✅ PhD program start (Jan 2024)
 - ✅ UAE position completion (Dec 2023)
 - ✅ NMSU Data Mining Contest achievement
 
 ### 7. Repository Configuration
+
 - ✅ Set GitHub username for stats display
 - ✅ Configured to show your repositories
 
@@ -133,6 +140,7 @@ Created 7 hardware design projects:
 ## 🎯 Portfolio Highlights
 
 Your portfolio now showcases:
+
 - ✅ **8+ years** of hardware design experience
 - ✅ **Multi-layer PCB** expertise (up to 8 layers)
 - ✅ **Automotive-grade** product development
@@ -163,6 +171,7 @@ Once deployed, your portfolio will be available at:
 ## 📞 Support
 
 For questions about:
+
 - **al-folio theme**: See FAQ.md or visit GitHub discussions
 - **Your content**: Edit the files listed above
 - **Deployment issues**: Check INSTALL.md
@@ -170,4 +179,3 @@ For questions about:
 ---
 
 **Your portfolio is ready to deploy! Follow SETUP_INSTRUCTIONS.md to go live.** 🚀
-

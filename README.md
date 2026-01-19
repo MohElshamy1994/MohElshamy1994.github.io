@@ -21,18 +21,21 @@ Ph.D. Candidate in Electrical and Computer Engineering at New Mexico State Unive
 ## 🔧 Technical Expertise
 
 ### Hardware Design
+
 - **EDA Tools**: Altium Designer (Advanced), KiCad, Eagle, LTSpice
 - **PCB Design**: Multi-layer boards, high-speed digital, power integrity, EMI-aware layout
 - **Microcontrollers**: Arduino, ESP32, PIC, AVR, STM32, Nvidia Jetson
 - **FPGA**: Xilinx Zynq-7000 series
 
 ### Communication Protocols
+
 - UART, I2C, SPI, RS-232, RS-485
 - USB 2.0, Ethernet, CAN, OBD-II
 - Wi-Fi, GSM/GPRS, GPS
 - DDR3L, eMMC, QSPI
 
 ### Programming
+
 - **Embedded**: C/C++, Embedded C
 - **High-Level**: Python, MATLAB
 - **HDL**: Verilog
@@ -40,6 +43,7 @@ Ph.D. Candidate in Electrical and Computer Engineering at New Mexico State Unive
 ## 📂 Portfolio Sections
 
 ### Projects
+
 - **Automotive Telematics Device** - GPS tracking, OBD-II diagnostics, driver monitoring
 - **Solar MPPT Controller** - High-efficiency solar charge controller (>97%)
 - **IoT Smart Home Controller** - Multi-protocol home automation system
@@ -49,7 +53,9 @@ Ph.D. Candidate in Electrical and Computer Engineering at New Mexico State Unive
 - **SoC Power & Thermal Modeling** - PhD research on thermal management
 
 ### CV
+
 Complete curriculum vitae including:
+
 - Education (PhD, 2x MSc, BSc)
 - Professional Experience
 - Technical Skills

@@ -24,18 +24,21 @@ Designed a ruggedized industrial data logger for real-time monitoring and record
 ## Hardware Architecture
 
 ### Signal Conditioning
+
 - **Analog Front-End**: Programmable gain amplifiers (PGA)
 - **Filtering**: Anti-aliasing filters for each channel
 - **Isolation**: Galvanic isolation for industrial noise immunity
 - **Protection**: Overvoltage clamps and current limiting
 
 ### Data Processing
+
 - **MCU**: STM32F4 series (168MHz, floating-point unit)
 - **Memory**: External SRAM for data buffering
 - **RTC**: Real-time clock with battery backup
 - **Watchdog**: Hardware and software watchdog timers
 
 ### PCB Design Considerations
+
 - **6-layer stackup** for optimal signal integrity
 - **Analog/Digital Separation**: Isolated ground planes
 - **Shielding**: Guard traces around sensitive analog signals

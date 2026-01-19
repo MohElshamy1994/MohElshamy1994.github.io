@@ -43,6 +43,7 @@ My research focuses on **SoC power and thermal modeling**, power management, and
 ## Technical Proficiency
 
 I specialize in:
+
 - **Multi-layer PCB Design** (up to 8 layers) using Altium Designer
 - **High-Speed Digital Design** with power integrity and EMI-aware layout
 - **Embedded Systems Development** on AVR, PIC, ESP32, and Nvidia Jetson platforms
