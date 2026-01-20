@@ -75,10 +75,10 @@ Designed and developed a comprehensive **automotive-grade telematics device** fo
   - GPIO expansion for device control
 
 **Power Management:**
-- **Wide Input Range**: 9-36V DC automotive input with reverse polarity protection
+- **Wide Input Range**: 9-36V DC automotive input with reverse polarity, ESD, surge current, and overvoltage protection, with auto-run when car is on and auto-sleep when car is off
 - **Efficient Conversion**: Buck converter for main power, LDO regulators for sensitive circuits
 - **Power Monitoring**: Real-time current and voltage monitoring
-- **Low Power Modes**: Intelligent sleep/wake-up for extended operation
+- **Low Power Modes**: Intelligent sleep/wake-up for extended operation with auto-run when car is on and auto-sleep when car is off
 
 ### Critical Design Challenge: Thermal Management
 
@@ -118,6 +118,7 @@ The extreme temperatures in the UAE (reaching 50°C+ ambient, with vehicle inter
 
 - **Reverse Polarity Protection**: Schottky diode and MOSFET-based protection
 - **Overvoltage Protection**: TVS diodes and clamping circuits
+- **Surge Current Protection**: Protection against inrush and surge currents
 - **ESD Protection**: ESD protection on all external interfaces
 - **EMI Mitigation**: Careful layout and grounding strategy for GSM/GPS coexistence
 - **Vibration Resistance**: Component selection and mounting for automotive vibration standards
