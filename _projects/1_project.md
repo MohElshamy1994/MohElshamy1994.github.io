@@ -14,11 +14,11 @@ Designed and developed a comprehensive **automotive-grade telematics device** fo
 
 ### Final Production Board
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+<div class="row justify-content-sm-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/telematics/3.png" title="Final Version - Production Board View 1" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/telematics/4.png" title="Final Version - Production Board View 2" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
