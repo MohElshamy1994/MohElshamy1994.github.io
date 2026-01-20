@@ -401,9 +401,9 @@ ninja.data = [{
           description: "Automotive-grade telematics system for police vehicles with driver behavior monitoring, vehicle tracking, and real-time diagnostics",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-solar-mppt-controller",
-          title: 'Solar MPPT Controller',
-          description: "Maximum Power Point Tracking controller for solar panel systems",
+            },},{id: "projects-electronic-impound-amp-monitoring-unit",
+          title: 'Electronic Impound &amp;amp; Monitoring Unit',
+          description: "Ultra-low-power vehicle impound monitoring system with 12-month battery life, tamper detection, and secure tracking for law enforcement operations",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{id: "projects-iot-smart-home-controller",
