@@ -12,6 +12,17 @@ related_publications: false
 
 Designed and developed a comprehensive **automotive-grade telematics device** for deployment in police vehicles across the UAE. This mission-critical system enables real-time vehicle tracking, advanced driver behavior monitoring, comprehensive vehicle diagnostics, and secure data transmission to central police servers. The device features extensive I/O capabilities to interface with existing and new vehicle systems, making it a complete solution for fleet management and law enforcement operations.
 
+### Final Production Board
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-10 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/telematics/1.png" title="Final Version - Production Board (Top View)" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Final production version of the Automotive Telematics Device showing the complete assembled board with all components mounted and ready for deployment.
+</div>
+
 ## Key Features & Functionality
 
 ### Driver Behavior Monitoring
