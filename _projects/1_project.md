@@ -65,12 +65,9 @@ Designed and developed a comprehensive **automotive-grade telematics device** fo
 - **Signal Integrity**: Controlled impedance routing for high-speed signals
 
 **Core Components:**
-- **Microcontroller**: High-performance ARM Cortex-M series with floating-point unit
+- **Main Microcontroller**: ESP32 System on Chip (SoC) featuring dual-core 32-bit Tensilica LX6 processor running at up to 240 MHz, with integrated Wi-Fi (802.11 b/g/n) and Bluetooth 4.2/5 (LE) connectivity
+- **Cellular Communication Module**: Quectel EC200U based on Unisoc UIS8910DM SoC with integrated ARM-based processor core (programmed with MicroPython) for GSM/GPRS/5G connectivity
 - **Communication Modules**: 
-  - GSM/GPRS module (SIM800 series)
-  - 5G module for high-speed data transmission
-  - Wi-Fi module for local connectivity and configuration
-  - Bluetooth module for short-range communication and device pairing
   - GPS module (NEO-6M or equivalent) with external antenna support
 - **Interfaces**: 
   - CAN bus transceiver for OBD-II communication
@@ -216,19 +213,20 @@ The project underwent multiple design iterations to optimize performance, reliab
 
 **Hardware Design:**
 - Altium Designer (PCB design and layout)
+- PDN analyzer in Altium Designer
 - Thermal simulation tools
 - Signal integrity analysis
 
 **Hardware Components:**
-- ARM Cortex-M series microcontroller
-- GSM/GPRS/5G communication modules
-- Wi-Fi and Bluetooth modules
+- ESP32 SoC (dual-core Tensilica LX6 processor with integrated Wi-Fi and Bluetooth)
+- Quectel EC200U cellular module (Unisoc UIS8910DM SoC with ARM-based processor)
 - GPS receiver modules
 - CAN bus transceivers
 - Automotive-grade power management ICs
 
 **Software:**
-- Embedded C programming
+- Embedded C programming (ESP32)
+- MicroPython (Quectel EC200U)
 - FreeRTOS real-time operating system
 - OBD-II protocol implementation
 - Secure communication protocols
