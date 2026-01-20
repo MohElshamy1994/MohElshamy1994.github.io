@@ -2,7 +2,7 @@
 layout: page
 title: Automotive Telematics Device
 description: Automotive-grade telematics system for police vehicles with driver behavior monitoring, vehicle tracking, and real-time diagnostics
-img: assets/img/telematics/1.png
+img: assets/img/telematics/3.png
 importance: 1
 category: work
 related_publications: false
