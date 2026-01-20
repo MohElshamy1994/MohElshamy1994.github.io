@@ -14,13 +14,16 @@ Designed and developed a comprehensive **automotive-grade telematics device** fo
 
 ### Final Production Board
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-10 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/telematics/1.png" title="Final Version - Production Board (Top View)" class="img-fluid rounded z-depth-1" %}
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/telematics/3.png" title="Final Version - Production Board View 1" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/telematics/4.png" title="Final Version - Production Board View 2" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Final production version of the Automotive Telematics Device showing the complete assembled board with all components mounted and ready for deployment.
+    Final production version of the Automotive Telematics Device showing the complete assembled board with all components mounted and ready for deployment. Multiple views demonstrate the compact design and professional assembly quality.
 </div>
 
 ## Key Features & Functionality
