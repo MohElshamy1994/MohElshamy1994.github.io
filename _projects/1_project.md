@@ -43,6 +43,7 @@ Designed and developed a comprehensive **automotive-grade telematics device** fo
 
 ### Communication & Data Transmission
 - **Multi-band Connectivity**: GSM/GPRS/5G support for reliable data transmission
+- **Wireless Connectivity**: Wi-Fi and Bluetooth support for local communication and device configuration
 - **Secure Server Communication**: Encrypted data transmission to police central servers
 - **Real-time Alerts**: Immediate notification of critical events
 - **Data Synchronization**: Automatic data upload with retry mechanisms
@@ -68,6 +69,8 @@ Designed and developed a comprehensive **automotive-grade telematics device** fo
 - **Communication Modules**: 
   - GSM/GPRS module (SIM800 series)
   - 5G module for high-speed data transmission
+  - Wi-Fi module for local connectivity and configuration
+  - Bluetooth module for short-range communication and device pairing
   - GPS module (NEO-6M or equivalent) with external antenna support
 - **Interfaces**: 
   - CAN bus transceiver for OBD-II communication
@@ -219,6 +222,7 @@ The project underwent multiple design iterations to optimize performance, reliab
 **Hardware Components:**
 - ARM Cortex-M series microcontroller
 - GSM/GPRS/5G communication modules
+- Wi-Fi and Bluetooth modules
 - GPS receiver modules
 - CAN bus transceivers
 - Automotive-grade power management ICs
