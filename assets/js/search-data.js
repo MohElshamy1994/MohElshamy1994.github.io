@@ -398,7 +398,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-automotive-telematics-device",
           title: 'Automotive Telematics Device',
-          description: "Low-power telematics system for vehicle tracking and diagnostics",
+          description: "Automotive-grade telematics system for police vehicles with driver behavior monitoring, vehicle tracking, and real-time diagnostics",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-solar-mppt-controller",
