@@ -431,6 +431,11 @@ ninja.data = [{
           description: "Research on power modeling for dynamic thermal management",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_project/";
+            },},{id: "projects-low-power-industrial-iot-controller",
+          title: 'Low Power Industrial IoT Controller',
+          description: "Industrial-grade IoT kit with handmade SMPS, ESP8266, and ATmega2560 for analog and digital signal interfacing — assembled in China",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/8_project/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
