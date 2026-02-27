@@ -1,0 +1,59 @@
+metadata:
+  last_updated: '2026-02-27'
+papers:
+  OIW1wDYAAAAJ:2osOgNQ5qMEC:
+    citations: 3
+    title: Enhancement of the Ball Balancing on the Plate using hybrid PD/Machine learning techniques
+    year: '2021'
+  OIW1wDYAAAAJ:9yKSN-GCB0IC:
+    citations: 4
+    title: Stabilization enhancement of the ball on the plate system (BOPS) based on Takagi-Sugeno (TS) fuzzy modeling
+    year: '2021'
+  OIW1wDYAAAAJ:LkGwnXOMwfcC:
+    citations: 0
+    title: On the Thermal Vulnerability of 3D-Stacked High-Bandwidth Memory Architectures
+    year: '2025'
+  OIW1wDYAAAAJ:Tyk-4Ss8FVUC:
+    citations: 4
+    title: Fine-grained clustering-based power identification for multicores
+    year: '2024'
+  OIW1wDYAAAAJ:W7OEmFMy1HYC:
+    citations: 2
+    title: 'Cluster-bpi: Efficient fine-grain blind power identification for defending against hardware thermal trojans in multicore socs'
+    year: '2024'
+  OIW1wDYAAAAJ:WF5omc3nYNoC:
+    citations: 1
+    title: 'iThermTroj: Exploiting Intermittent Thermal Trojans in Multi-Processor System-on-Chips'
+    year: '2025'
+  OIW1wDYAAAAJ:Y0pCki6q_DkC:
+    citations: 6
+    title: 'Matter: Multi-stage adaptive thermal trojan for efficiency & resilience degradation'
+    year: '2025'
+  OIW1wDYAAAAJ:_FxGoFyzp5QC:
+    citations: 0
+    title: Brain tumor classification with convolutional neural network
+    year: '2021'
+  OIW1wDYAAAAJ:d1gkVwhDpl0C:
+    citations: 2
+    title: Stabilization and tracking enhancement of the ball on the plate system based on Pseudo-PD controller and machine learning algorithms
+    year: '2021'
+  OIW1wDYAAAAJ:eQOLeE2rZwMC:
+    citations: 9
+    title: 'P-yolov8: Efficient and accurate real-time detection of distracted driving'
+    year: '2024'
+  OIW1wDYAAAAJ:qjMakFHDy7sC:
+    citations: 2
+    title: "Real\u2010time control design and implementation of ball balancer system based on machine learning and machine vision"
+    year: '2022'
+  OIW1wDYAAAAJ:u-x6o8ySG0sC:
+    citations: 30
+    title: Efficient deep learning models for brain tumor detection with segmentation and data augmentation techniques
+    year: '2022'
+  OIW1wDYAAAAJ:u5HHmVD_uO8C:
+    citations: 25
+    title: Efficient brain tumor detection based on deep learning models
+    year: '2021'
+  OIW1wDYAAAAJ:ufrVoPGSRksC:
+    citations: 0
+    title: 'CPINN-ABPI: Physics-Informed Neural Networks for Accurate Power Estimation in MPSoCs'
+    year: '2025'
