@@ -2,7 +2,7 @@
 layout: page
 title: Smart Driving Test — Automotive Power Management Controller
 description: UAE government project — centralized automotive power sequencing and protection board for smart driving test vehicles, managing startup, shutdown, fault isolation, and surge protection across all onboard subsystems
-img: assets/img/04-Smart Driving Test - Automotive Power Management Controller/1.png
+img: assets/img/04-Smart Driving Test – Automotive Power Management Controller/3.png
 importance: 5
 category: work
 related_publications: false
@@ -13,24 +13,15 @@ related_publications: false
 Designed a **centralized automotive power control and sequencing board** for a UAE government smart driving test vehicle. The board manages power delivery to all onboard subsystems — the test computer, router, sensors, and peripherals — with controlled startup/shutdown sequencing, fault isolation, and full automotive-grade protection.
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/04-Smart Driving Test - Automotive Power Management Controller/1.png" title="Production Board — Top View" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/04-Smart Driving Test – Automotive Power Management Controller/3.png" title="Production Board — Full View showing relay channels, fuse banks, MCU, and DC-DC converter" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/04-Smart Driving Test - Automotive Power Management Controller/2.png" title="Production Board — Overview" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/04-Smart Driving Test – Automotive Power Management Controller/4.png" title="Board powered up in enclosure — green status LEDs and Yongchuan relay active" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/04-Smart Driving Test - Automotive Power Management Controller/3.png" title="Power Distribution Stage" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/04-Smart Driving Test - Automotive Power Management Controller/4.png" title="Relay & Fuse Channels" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/04-Smart Driving Test - Automotive Power Management Controller/5.png" title="MCU Control Core" class="img-fluid rounded z-depth-1" %}
-    </div>
+<div class="caption">
+    Left: Full production board showing 12+ relay channels, individual blade fuse banks, central MCU, 680µF bulk capacitor, buck converter, and high-current screw terminal outputs. Right: Board powered up in its installation enclosure with green status LEDs confirming active operation and the main Yongchuan 40A relay engaged.
 </div>
 
 ---
