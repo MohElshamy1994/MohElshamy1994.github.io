@@ -436,6 +436,11 @@ ninja.data = [{
           description: "Industrial-grade IoT kit with handmade SMPS, ESP8266, and ATmega2560 for analog and digital signal interfacing — assembled in China",
           section: "Projects",handler: () => {
               window.location.href = "/projects/8_project/";
+            },},{id: "projects-tatweer-t-can-can-bus-debugger",
+          title: 'Tatweer T-CAN — CAN Bus Debugger',
+          description: "Compact dual-channel CAN bus analyzer and debugger for automotive diagnostics, built around ESP32 and MCP2515, deployed and tested in real vehicles",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/9_project/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
