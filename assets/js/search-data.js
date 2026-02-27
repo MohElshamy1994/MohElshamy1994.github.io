@@ -396,7 +396,12 @@ ninja.data = [{
           section: "News",},{id: "news-started-ph-d-program-in-electrical-and-computer-engineering-at-new-mexico-state-university",
           title: 'Started Ph.D. program in Electrical and Computer Engineering at New Mexico State University!...',
           description: "",
-          section: "News",},{id: "projects-automotive-telematics-device",
+          section: "News",},{id: "projects-smart-driving-test-automotive-power-management-controller",
+          title: 'Smart Driving Test — Automotive Power Management Controller',
+          description: "UAE government project — centralized automotive power sequencing and protection board for smart driving test vehicles, managing startup, shutdown, fault isolation, and surge protection across all onboard subsystems",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/10_project/";
+            },},{id: "projects-automotive-telematics-device",
           title: 'Automotive Telematics Device',
           description: "Automotive-grade telematics system for police vehicles with driver behavior monitoring, vehicle tracking, and real-time diagnostics",
           section: "Projects",handler: () => {
