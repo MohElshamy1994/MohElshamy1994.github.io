@@ -13,15 +13,24 @@ related_publications: false
 Designed a **centralized automotive power control and sequencing board** for a UAE government smart driving test vehicle. The board manages power delivery to all onboard subsystems — the test computer, router, sensors, and peripherals — with controlled startup/shutdown sequencing, fault isolation, and full automotive-grade protection.
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/04-Smart Driving Test – Automotive Power Management Controller/3.png" title="Production Board — Full View showing relay channels, fuse banks, MCU, and DC-DC converter" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/04-Smart Driving Test – Automotive Power Management Controller/4.png" title="Board powered up in enclosure — green status LEDs and Yongchuan relay active" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-10 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/04-Smart Driving Test – Automotive Power Management Controller/3D.jpg" title="PDU V1.0 — Altium Designer 3D Render" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Left: Full production board showing 12+ relay channels, individual blade fuse banks, central MCU, 680µF bulk capacitor, buck converter, and high-current screw terminal outputs. Right: Board powered up in its installation enclosure with green status LEDs confirming active operation and the main Yongchuan 40A relay engaged.
+    Altium Designer 3D render of the PDU V1.0 (TATWEER Innovation Lab) — showing all relay channels, blade fuse banks, MCU section, power stage, digital outputs (DQ32–DQ49), analog inputs (A1–A8), ignition input, and battery connectors.
+</div>
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/04-Smart Driving Test – Automotive Power Management Controller/3.png" title="Production Board — Full View" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/04-Smart Driving Test – Automotive Power Management Controller/4.png" title="Board powered up in enclosure" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Assembled production board with 12+ relay channels, blade fuse banks, MCU, and DC-DC converter (left); board powered up in its installation enclosure with active relay and green status LEDs (right).
 </div>
 
 ---
