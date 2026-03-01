@@ -416,6 +416,11 @@ ninja.data = [{
           description: "Custom electronic control circuit for a medical chair — motor-driven positioning with LCD display, push-button interface, and multi-channel actuator outputs",
           section: "Projects",handler: () => {
               window.location.href = "/projects/13_project/";
+            },},{id: "projects-iot-high-power-switch-controller",
+          title: 'IoT High-Power Switch Controller',
+          description: "Wi-Fi controlled high-power switching board using NodeMCU (ESP8266) with relay, optocoupler isolation, and AC-DC converter modules for remote industrial load control",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/14_project/";
             },},{id: "projects-automotive-telematics-device",
           title: 'Automotive Telematics Device',
           description: "Automotive-grade telematics system for police vehicles with driver behavior monitoring, vehicle tracking, and real-time diagnostics",
