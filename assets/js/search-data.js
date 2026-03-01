@@ -436,31 +436,6 @@ ninja.data = [{
           description: "Ultra-low-power vehicle impound monitoring system with 12-month battery life, tamper detection, and secure tracking for law enforcement operations",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-iot-smart-home-controller",
-          title: 'IoT Smart Home Controller',
-          description: "Multi-protocol IoT controller for home automation",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-industrial-data-logger",
-          title: 'Industrial Data Logger',
-          description: "Multi-channel data acquisition system for industrial monitoring",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-battery-management-system-bms",
-          title: 'Battery Management System (BMS)',
-          description: "Intelligent BMS for lithium-ion battery packs",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-multi-layer-pcb-laboratory",
-          title: 'Multi-Layer PCB Laboratory',
-          description: "Management of PCB fabrication facility for defense applications",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-soc-power-amp-thermal-modeling",
-          title: 'SoC Power &amp;amp; Thermal Modeling',
-          description: "Research on power modeling for dynamic thermal management",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
             },},{id: "projects-low-power-industrial-iot-controller",
           title: 'Low Power Industrial IoT Controller',
           description: "Industrial-grade IoT kit with handmade SMPS, ESP8266, and ATmega2560 for analog and digital signal interfacing — assembled in China",
