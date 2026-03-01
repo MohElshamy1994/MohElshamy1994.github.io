@@ -401,6 +401,11 @@ ninja.data = [{
           description: "UAE government project — centralized automotive power sequencing and protection board for smart driving test vehicles, managing startup, shutdown, fault isolation, and surge protection across all onboard subsystems",
           section: "Projects",handler: () => {
               window.location.href = "/projects/10_project/";
+            },},{id: "projects-multi-protocol-data-logger-kit",
+          title: 'Multi-Protocol Data Logger Kit',
+          description: "Industrial data logger supporting RS485, RS232, GPRS, and Wi-Fi with 16 digital inputs, 16 analog inputs, backup battery, and smart charger — designed in Altium Designer",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/11_project/";
             },},{id: "projects-automotive-telematics-device",
           title: 'Automotive Telematics Device',
           description: "Automotive-grade telematics system for police vehicles with driver behavior monitoring, vehicle tracking, and real-time diagnostics",
