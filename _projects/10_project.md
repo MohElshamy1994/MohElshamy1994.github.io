@@ -2,7 +2,7 @@
 layout: page
 title: Smart Driving Test — Automotive Power Management Controller
 description: UAE government project — centralized automotive power sequencing and protection board for smart driving test vehicles, managing startup, shutdown, fault isolation, and surge protection across all onboard subsystems
-img: assets/img/04-Smart Driving Test – Automotive Power Management Controller/3.png
+img: assets/img/04-Smart Driving Test – Automotive Power Management Controller/HRes.jpeg
 importance: 5
 category: work
 related_publications: false
@@ -21,16 +21,19 @@ Designed a **centralized automotive power control and sequencing board** for a U
     Altium Designer 3D render of the PDU V1.0 (TATWEER Innovation Lab) — showing all relay channels, blade fuse banks, MCU section, power stage, digital outputs (DQ32–DQ49), analog inputs (A1–A8), ignition input, and battery connectors.
 </div>
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/04-Smart Driving Test – Automotive Power Management Controller/HRes.jpeg" title="Board Live — Yongchuan relay active, green LEDs, colored fuse banks" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/04-Smart Driving Test – Automotive Power Management Controller/3.png" title="Production Board — Full View" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/04-Smart Driving Test – Automotive Power Management Controller/4.png" title="Board powered up in enclosure" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Assembled production board with 12+ relay channels, blade fuse banks, MCU, and DC-DC converter (left); board powered up in its installation enclosure with active relay and green status LEDs (right).
+    High-resolution photo of the board fully powered — Yongchuan 40A relay engaged, green status LEDs active, and colored blade fuse banks wired up (left); full board overview (center); board mounted in its installation enclosure (right).
 </div>
 
 ---
