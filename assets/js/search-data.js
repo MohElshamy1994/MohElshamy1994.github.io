@@ -411,6 +411,11 @@ ninja.data = [{
           description: "Touchless elevator floor selection system using capacitive proximity sensing — designed in Altium Designer and programmed with Arduino IDE",
           section: "Projects",handler: () => {
               window.location.href = "/projects/12_project/";
+            },},{id: "projects-medical-chair-controller",
+          title: 'Medical Chair Controller',
+          description: "Custom electronic control circuit for a medical chair — motor-driven positioning with LCD display, push-button interface, and multi-channel actuator outputs",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/13_project/";
             },},{id: "projects-automotive-telematics-device",
           title: 'Automotive Telematics Device',
           description: "Automotive-grade telematics system for police vehicles with driver behavior monitoring, vehicle tracking, and real-time diagnostics",
