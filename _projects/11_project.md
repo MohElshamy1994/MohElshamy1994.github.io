@@ -13,8 +13,17 @@ related_publications: false
 Designed a complete **industrial data logger kit** providing a unified solution for multi-protocol communication and data acquisition. The kit integrates RS485, RS232, GPRS, and Wi-Fi connectivity alongside 16 digital inputs, 16 analog inputs, onboard MicroSD logging, backup battery with smart charging, and comprehensive protection circuits — all designed in Altium Designer.
 
 <div class="row justify-content-sm-center">
+    <div class="col-sm-10 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/04- Data Logger Device/3D.jpg" title="Data Logger — Altium Designer 3D Render" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Altium Designer 3D render showing the full board layout — Wi-Fi module, MCU, relay, GPRS module, RS232 DB9 connector, 16-channel digital inputs bank, and all screw terminal I/O connections.
+</div>
+
+<div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/04- Data Logger Device/2.jpg" title="Data Logger — Top View" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/04- Data Logger Device/2.jpg" title="Data Logger — Top View" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/04- Data Logger Device/3.jpg" title="Data Logger — Detail View" class="img-fluid rounded z-depth-1" %}
