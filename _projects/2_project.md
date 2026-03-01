@@ -2,7 +2,7 @@
 layout: page
 title: Electronic Impound & Monitoring Unit
 description: Ultra-low-power vehicle impound monitoring system with 12-month battery life, tamper detection, and secure tracking for law enforcement operations
-img: assets/img/Impounding Device/4.png
+img: assets/img/Impounding Device/Device.jpg
 importance: 2
 category: work
 related_publications: false
@@ -12,18 +12,29 @@ related_publications: false
 
 Designed and developed an **official electronic impound and monitoring unit** for law enforcement vehicle impound operations in Abu Dhabi. This mission-critical system provides continuous vehicle tracking, tamper detection, and secure immobilization capabilities with ultra-low power consumption enabling 12+ months of autonomous operation. The device operates in extreme environmental conditions and includes comprehensive security features for police deployments.
 
+### Final Assembled Device
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Impounding Device/Device.jpg" title="Final Device — Assembled in Enclosure" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Final assembled Electronic Impound & Monitoring Unit inside its enclosure — showing the ceramic GPS patch antenna, LTE cellular module, power harness, external antenna connector, and green status LED confirming active operation.
+</div>
+
 ### Production Board Views
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Impounding Device/4.png" title="Production Board - Top View" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/Impounding Device/4.png" title="Production Board - Top View" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Impounding Device/5.png" title="Production Board - Component Layout" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/Impounding Device/5.png" title="Production Board - Component Layout" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Production version of the Electronic Impound & Monitoring Unit showing compact design optimized for ultra-low power consumption and extended battery life.
+    Production PCB showing compact design optimized for ultra-low power consumption and extended battery life.
 </div>
 
 <div class="row">
