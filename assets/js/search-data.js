@@ -436,6 +436,11 @@ ninja.data = [{
           description: "DC-to-AC pure sine wave inverter converting 12V battery to 220V/50Hz AC using SPWM — verified on oscilloscope and load tested with multiple AC bulbs",
           section: "Projects",handler: () => {
               window.location.href = "/projects/17_project/";
+            },},{id: "projects-solar-panel-sun-tracking-system",
+          title: 'Solar Panel Sun Tracking System',
+          description: "Dual-axis sun tracking controller that continuously orients a solar panel toward the sun to maximize power output — ATmega2560 based with MOSFET motor drivers, OLED display, and light sensor feedback",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/18_project/";
             },},{id: "projects-automotive-telematics-device",
           title: 'Automotive Telematics Device',
           description: "Automotive-grade telematics system for police vehicles with driver behavior monitoring, vehicle tracking, and real-time diagnostics",
