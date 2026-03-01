@@ -2,7 +2,7 @@
 layout: page
 title: Multi-Protocol Data Logger Kit
 description: Industrial data logger supporting RS485, RS232, GPRS, and Wi-Fi with 16 digital inputs, 16 analog inputs, backup battery, and smart charger — designed in Altium Designer
-img: assets/img/04- Data Logger Device/DataLogger.png
+img: assets/img/04- Data Logger Device/2.jpg
 importance: 6
 category: work
 related_publications: false
@@ -13,12 +13,20 @@ related_publications: false
 Designed a complete **industrial data logger kit** providing a unified solution for multi-protocol communication and data acquisition. The kit integrates RS485, RS232, GPRS, and Wi-Fi connectivity alongside 16 digital inputs, 16 analog inputs, onboard MicroSD logging, backup battery with smart charging, and comprehensive protection circuits — all designed in Altium Designer.
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-10 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/04- Data Logger Device/DataLogger.png" title="Multi-Protocol Data Logger Kit — Assembled Board" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/04- Data Logger Device/2.jpg" title="Data Logger — Top View" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/04- Data Logger Device/3.jpg" title="Data Logger — Detail View" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/04- Data Logger Device/4.jpg" title="Data Logger — Full Board Overview" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Fully assembled data logger kit showing the 16-channel screw terminal banks, ESP8266 Wi-Fi module, GPRS module, RS232 DB9 connector, MicroSD card adapter, and backup power section.
+    Assembled data logger kit showing the GPRS A6 module, ESP8266 Wi-Fi module, relay outputs, MCU, RS232 DB9 connector, MicroSD adapter, backup power section, and 16-channel screw terminal banks for digital and analog I/O.
 </div>
 
 ---
