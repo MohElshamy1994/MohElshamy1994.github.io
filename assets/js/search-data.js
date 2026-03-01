@@ -406,6 +406,11 @@ ninja.data = [{
           description: "Industrial data logger supporting RS485, RS232, GPRS, and Wi-Fi with 16 digital inputs, 16 analog inputs, backup battery, and smart charger — designed in Altium Designer",
           section: "Projects",handler: () => {
               window.location.href = "/projects/11_project/";
+            },},{id: "projects-contactless-elevator-floor-selector",
+          title: 'Contactless Elevator Floor Selector',
+          description: "Touchless elevator floor selection system using capacitive proximity sensing — designed in Altium Designer and programmed with Arduino IDE",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/12_project/";
             },},{id: "projects-automotive-telematics-device",
           title: 'Automotive Telematics Device',
           description: "Automotive-grade telematics system for police vehicles with driver behavior monitoring, vehicle tracking, and real-time diagnostics",
