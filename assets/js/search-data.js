@@ -431,6 +431,11 @@ ninja.data = [{
           description: "Intelligent elevator sound system that announces floor numbers and elevator status — compatible with all Egyptian commercial elevator controllers, with 7-segment floor display and audio output",
           section: "Projects",handler: () => {
               window.location.href = "/projects/16_project/";
+            },},{id: "projects-200w-pure-sine-wave-inverter",
+          title: '200W Pure Sine Wave Inverter',
+          description: "DC-to-AC pure sine wave inverter converting 12V battery to 220V/50Hz AC using SPWM — verified on oscilloscope and load tested with multiple AC bulbs",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/17_project/";
             },},{id: "projects-automotive-telematics-device",
           title: 'Automotive Telematics Device',
           description: "Automotive-grade telematics system for police vehicles with driver behavior monitoring, vehicle tracking, and real-time diagnostics",
