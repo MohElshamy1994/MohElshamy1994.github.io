@@ -421,6 +421,11 @@ ninja.data = [{
           description: "Wi-Fi controlled high-power switching board using NodeMCU (ESP8266) with relay, optocoupler isolation, and AC-DC converter modules for remote industrial load control",
           section: "Projects",handler: () => {
               window.location.href = "/projects/14_project/";
+            },},{id: "projects-parallel-pid-controller-kit",
+          title: 'Parallel PID Controller Kit',
+          description: "Analog parallel PID controller educational kit designed for Menoufia University (Faculty of Engineering) — with companion Position &amp; Speed Control board, hardware P/I/D tuning potentiometers, and motor driver stage",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/15_project/";
             },},{id: "projects-automotive-telematics-device",
           title: 'Automotive Telematics Device',
           description: "Automotive-grade telematics system for police vehicles with driver behavior monitoring, vehicle tracking, and real-time diagnostics",
