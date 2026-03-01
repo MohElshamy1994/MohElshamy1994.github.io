@@ -426,6 +426,11 @@ ninja.data = [{
           description: "Analog parallel PID controller educational kit designed for Menoufia University (Faculty of Engineering) — with companion Position &amp; Speed Control board, hardware P/I/D tuning potentiometers, and motor driver stage",
           section: "Projects",handler: () => {
               window.location.href = "/projects/15_project/";
+            },},{id: "projects-elevator-floor-announcement-system",
+          title: 'Elevator Floor Announcement System',
+          description: "Intelligent elevator sound system that announces floor numbers and elevator status — compatible with all Egyptian commercial elevator controllers, with 7-segment floor display and audio output",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/16_project/";
             },},{id: "projects-automotive-telematics-device",
           title: 'Automotive Telematics Device',
           description: "Automotive-grade telematics system for police vehicles with driver behavior monitoring, vehicle tracking, and real-time diagnostics",
