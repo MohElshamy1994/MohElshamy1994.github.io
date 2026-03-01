@@ -157,6 +157,40 @@ The project underwent multiple design iterations to optimize performance, reliab
 - Optimized signal routing
 - Enhanced reliability features
 
+### Version 4 (V4 — TxLTE-V4.1) - Major Redesign
+
+A significant architectural upgrade introducing external SMA antenna connectors, USB-C, a new Quectel EC200UEU cellular module, and a refined compact form factor.
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/telematics/v4/1000001156.JPG" title="V4 - Top View (TxLTE-V4.1)" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/telematics/v4/1000001158.JPG" title="V4 - Bottom View (EC200UEU Module)" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    V4 (TxLTE-V4.1) — top view showing USB-C, SMA antenna connectors, and updated layout (left); bottom view showing Quectel EC200UEU cellular module and SIM card slot (right).
+</div>
+
+**Key upgrades in V4:**
+- **External SMA antenna connectors** for GPS and cellular — improved signal performance and flexibility
+- **Quectel EC200UEU** cellular module replacing the previous module
+- **USB-C** port for power and firmware interface
+- **SIM card slot** integrated on-board
+- Refined compact form factor with improved connector arrangement
+
+**V4 Demo Video:**
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-10 mt-3 mt-md-0">
+        {% include video.liquid path="assets/img/telematics/v4/Video2.MP4" class="img-fluid rounded z-depth-1" controls=true %}
+    </div>
+</div>
+<div class="caption">
+    V4 live demonstration video showing the board in operation.
+</div>
+
 ### Final Version (FV) - Production Ready
 - Production-optimized layout
 - Comprehensive testing validation
