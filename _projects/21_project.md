@@ -19,7 +19,7 @@ Designed and deployed a **complete Wi-Fi home automation system** capable of con
         {% include figure.liquid loading="eager" path="assets/img/14- Complete Home Automation IOT Project/V3/2.jpg" title="V3 — Final 16-Channel Production PCB (Top)" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/14- Complete Home Automation IOT Project/V3/1 (2).jpg" title="V3 — Production PCB Bottom View" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/14- Complete Home Automation IOT Project/V3/1.jpg" title="V3 — Production PCB Bottom View" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
