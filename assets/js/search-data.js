@@ -456,6 +456,11 @@ ninja.data = [{
           description: "Custom-built multi-axis CNC controller using PIC microcontrollers — receives G-code from PC via parallel port, generates stepper motor sequences for X/Y/Z axis motion control",
           section: "Projects",handler: () => {
               window.location.href = "/projects/20_project/";
+            },},{id: "projects-complete-home-automation-iot-system",
+          title: 'Complete Home Automation IoT System',
+          description: "Wi-Fi controlled home automation system with up to 16 relay channels — evolved through 3 versions from prototype to professional wall-installed PCB, controlling all home lighting and appliances via smartphone",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/21_project/";
             },},{id: "projects-electronic-impound-amp-monitoring-unit",
           title: 'Electronic Impound &amp;amp; Monitoring Unit',
           description: "Ultra-low-power vehicle impound monitoring system with 12-month battery life, tamper detection, and secure tracking for law enforcement operations",
