@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Digital PID Controller — Hardware in the Loop
-description: From-scratch digital PID speed controller for a DC motor with quadrature encoder feedback — modular algorithm with no Arduino library dependencies, validated with MATLAB step response plots
+title: Digital PID Controller — Hardware in the Loop & Standalone
+description: DC motor speed control using two approaches — MATLAB-based hardware-in-the-loop PID and a fully standalone from-scratch PID algorithm running entirely on Arduino, both with quadrature encoder feedback and no library dependencies
 img: assets/img/12- Digital PID - Hardware in the loop/4.jpg
 importance: 14
 category: work
@@ -10,58 +10,80 @@ related_publications: false
 
 ## Project Overview
 
-Implemented a **modular digital PID speed controller** for a DC motor with quadrature encoder feedback, developed entirely from scratch without using any Arduino PID library. The controller was validated using hardware-in-the-loop testing — real-time serial data streamed to MATLAB for step response analysis, demonstrating clean tracking, minimal overshoot, and near-zero steady-state error across multiple setpoint changes.
+This project demonstrates **two complete implementations** of a digital PID speed controller for a DC motor with quadrature encoder feedback — both developed from scratch without any Arduino PID library:
+
+1. **Hardware-in-the-Loop (HIL)**: The PID algorithm runs in MATLAB. The Arduino acts as the hardware interface — reading the encoder and sending speed data to MATLAB via serial, while receiving the computed PWM control signal back from MATLAB to drive the motor. This setup enables rapid tuning and real-time visualization in MATLAB.
+
+2. **Standalone Arduino PID**: The complete PID algorithm runs entirely on the Arduino itself — no PC or MATLAB needed during operation. The Arduino reads the encoder, computes all P, I, and D terms in real time, and drives the motor directly through the Cytron MDD10A motor driver.
+
+Both implementations share the same modular code architecture and were validated on the same hardware platform.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/12- Digital PID - Hardware in the loop/1.jpg" title="Hardware Setup — Arduino Mega, Cytron MDD10A, DC Motor with Encoder" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/12- Digital PID - Hardware in the loop/1.jpg" title="Hardware Test Rig — Arduino Mega, Cytron MDD10A, DC Motor with Encoder" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/12- Digital PID - Hardware in the loop/2.jpg" title="Full Test Rig with Power Supply" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/12- Digital PID - Hardware in the loop/2.jpg" title="Full Setup with External Power Supply" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Hardware-in-the-loop test rig: Arduino Mega + Cytron MDD10A dual-channel motor driver + DC geared motor with quadrature encoder, connected to PC for real-time monitoring (left and right).
+    Hardware platform: Arduino Mega + Cytron MDD10A dual-channel motor driver + DC geared motor with quadrature encoder, connected to PC for HIL testing and standalone validation.
 </div>
+
+---
+
+## Implementation 1 — Hardware in the Loop (MATLAB PID)
+
+In this mode, **MATLAB runs the PID control loop**:
+- Arduino reads encoder counts via hardware interrupts and sends speed over serial to MATLAB
+- MATLAB computes the PID output at each timestep and sends the PWM duty cycle back to Arduino
+- Arduino drives the motor via the Cytron MDD10A based on the received PWM value
+- MATLAB plots the response in real time for tuning and analysis
+
+This allows fast gain tuning (Kp, Ki, Kd) and instant step response visualization without re-flashing the Arduino.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/12- Digital PID - Hardware in the loop/4.jpg" title="Clean Step Response — Setpoint 0 to 1000" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/12- Digital PID - Hardware in the loop/3.jpg" title="HIL — Multi-Setpoint Response (1000 then 500)" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/12- Digital PID - Hardware in the loop/3.jpg" title="Multi-Setpoint Response — 1000 then 500" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/12- Digital PID - Hardware in the loop/Picture10.jpg" title="Steady-State Speed — Flat Response with Minimal Ripple" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/12- Digital PID - Hardware in the loop/Picture10.jpg" title="HIL — Steady-State Speed Profile" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Step response from 0 to 1000 counts showing minimal overshoot and fast settling (left). Multi-setpoint test tracking 1000 then stepping to 500 — demonstrating accurate tracking across setpoint changes (center). Steady-state speed response showing flat, stable speed with minimal ripple (right).
+    HIL results — multi-setpoint step response tracking from 1000 to 500 counts (left); steady-state speed showing flat, stable output with minimal ripple (right). Orange = setpoint, Blue = actual speed.
 </div>
 
 ---
 
-## Key Features
+## Implementation 2 — Standalone Arduino PID
 
-- **From-Scratch PID Algorithm** — full P, I, and D term implementation in C++ without any Arduino PID library
-- **Quadrature Encoder Feedback** — interrupt-driven encoder counting for accurate real-time speed measurement
-- **Modular Code Architecture** — PID, encoder, and motor driver modules separated for reusability and maintainability
-- **Anti-Windup** — integral windup protection to prevent saturation during large setpoint changes
-- **PWM Motor Drive** — via Cytron MDD10A dual-channel 10A DC motor driver
-- **Hardware-in-the-Loop Testing** — real-time serial data streamed to MATLAB for step response plotting and tuning
-- **Validated Performance** — clean step response, minimal overshoot, fast settling, near-zero steady-state error
+In this mode, **the full PID algorithm runs on the Arduino**:
+- Encoder speed measured locally using hardware interrupt-driven quadrature counting
+- PID computation (P + I + D terms) executed in a fixed-period timer interrupt
+- PWM output sent directly to the Cytron MDD10A motor driver
+- No PC required during operation — fully embedded, autonomous control
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/12- Digital PID - Hardware in the loop/4.jpg" title="Standalone Arduino PID — Clean Step Response (0 to 1000)" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Standalone Arduino PID step response — speed ramps from 0 to setpoint 1000 with minimal overshoot (~2.5%) and fast settling (~3 seconds). Orange = setpoint, Blue = actual speed.
+</div>
 
 ---
 
-## PID Algorithm Implementation
+## PID Algorithm (From Scratch — No Library)
 
-All three terms implemented from scratch using the positional PID form:
+Both implementations use the same positional PID form:
 
-- **Proportional (P)**: `Kp × error(t)`
-- **Integral (I)**: `Ki × Σerror × dt` — with anti-windup clamping
-- **Derivative (D)**: `Kd × (error(t) - error(t-1)) / dt` — acting on error change to avoid derivative kick
+- **Proportional**: `Kp × e(t)`
+- **Integral**: `Ki × Σe(t) × dt` — with anti-windup clamping
+- **Derivative**: `Kd × (e(t) − e(t−1)) / dt` — on error to avoid derivative kick on setpoint change
 
-Encoder speed computed from quadrature interrupt counts per fixed time window, giving precise RPM/counts-per-second feedback.
+Encoder speed: quadrature A/B phase signals read via hardware interrupts, counts measured per fixed time window.
 
 ---
 
@@ -69,42 +91,32 @@ Encoder speed computed from quadrature interrupt counts per fixed time window, g
 
 | Component | Role |
 |---|---|
-| Arduino Mega | PID computation, encoder interrupt reading, PWM output |
+| Arduino Mega | Encoder reading, PWM output; PID host in standalone mode |
 | Cytron MDD10A | Dual-channel 10A DC motor driver — bidirectional PWM drive |
-| DC Geared Motor | Plant — controlled motor with shaft encoder |
-| Quadrature Encoder | Speed feedback — A/B phase signals read via hardware interrupts |
-| PC + MATLAB | Serial data capture and step response plotting |
-| External Power Supply | Motor power rail — separate from logic supply |
+| DC Geared Motor | Controlled plant |
+| Quadrature Encoder | Speed feedback via hardware interrupts |
+| PC + MATLAB | HIL mode only — PID computation and real-time plotting |
+| External Power Supply | Separate motor power rail |
 
 ---
 
 ## Results
 
-| Metric | Result |
-|---|---|
-| Step response overshoot | ~2.5% (setpoint 0 → 1000) |
-| Settling time | ~3 seconds |
-| Steady-state error | Near zero |
-| Multi-setpoint tracking | Accurate tracking on step changes (1000 → 500) |
-| Steady-state ripple | Minimal — flat speed profile |
-
----
-
-## Technologies & Tools
-
-- Arduino Mega / C++ — custom PID and encoder firmware
-- Cytron MDD10A — dual-channel motor driver
-- MATLAB — serial data logging and step response analysis
-- Hardware interrupts — quadrature encoder counting
-- PWM control — variable speed motor drive
+| Metric | HIL (MATLAB PID) | Standalone (Arduino PID) |
+|---|---|---|
+| Step response overshoot | Low | ~2.5% |
+| Settling time | Fast | ~3 seconds |
+| Steady-state error | Near zero | Near zero |
+| Multi-setpoint tracking | ✅ Validated | ✅ Validated |
+| PC required at runtime | Yes (MATLAB) | No — fully autonomous |
 
 ---
 
 ## Key Achievements
 
-✅ Implemented a complete digital PID controller from scratch — no library used  
-✅ Interrupt-driven quadrature encoder feedback for accurate speed measurement  
-✅ Anti-windup protection for stable control across large setpoint changes  
-✅ Validated with MATLAB hardware-in-the-loop step response analysis  
-✅ Achieved minimal overshoot, fast settling, and near-zero steady-state error  
-✅ Modular, reusable code architecture for any DC motor control application  
+✅ Two complete PID implementations — MATLAB HIL and fully standalone on Arduino  
+✅ All PID math written from scratch — no Arduino or MATLAB PID toolbox libraries  
+✅ Interrupt-driven quadrature encoder for accurate real-time speed feedback  
+✅ Anti-windup protection for stable control across setpoint changes  
+✅ Clean step response with minimal overshoot and near-zero steady-state error  
+✅ Modular, reusable architecture applicable to any DC motor control application  
