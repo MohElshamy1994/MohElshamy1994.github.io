@@ -466,6 +466,11 @@ ninja.data = [{
           description: "IoT touch switch that replaces any standard wall switch — touch-sensitive panel with LED indication, relay-based load switching, and remote control from anywhere in the world via smartphone",
           section: "Projects",handler: () => {
               window.location.href = "/projects/22_project/";
+            },},{id: "projects-hospital-medical-gas-pressure-alarm-system",
+          title: 'Hospital Medical Gas Pressure Alarm System',
+          description: "PIC-based alarm system monitoring hospital medical gas pipeline lines (Oxygen, Vacuum, Air-4-bar, Air-7-bar) — detects pressure faults, provides LCD status display, visual LED indicators, and audible alarm with fault-cleared feedback",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/23_project/";
             },},{id: "projects-electronic-impound-amp-monitoring-unit",
           title: 'Electronic Impound &amp;amp; Monitoring Unit',
           description: "Ultra-low-power vehicle impound monitoring system with 12-month battery life, tamper detection, and secure tracking for law enforcement operations",
