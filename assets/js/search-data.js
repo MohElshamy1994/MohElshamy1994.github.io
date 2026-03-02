@@ -451,6 +451,11 @@ ninja.data = [{
           description: "Automotive-grade telematics system for police vehicles with driver behavior monitoring, vehicle tracking, and real-time diagnostics",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
+            },},{id: "projects-custom-cnc-machine-controller-pic-microcontroller",
+          title: 'Custom CNC Machine Controller — PIC Microcontroller',
+          description: "Custom-built multi-axis CNC controller using PIC microcontrollers — receives G-code from PC via parallel port, generates stepper motor sequences for X/Y/Z axis motion control",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/20_project/";
             },},{id: "projects-electronic-impound-amp-monitoring-unit",
           title: 'Electronic Impound &amp;amp; Monitoring Unit',
           description: "Ultra-low-power vehicle impound monitoring system with 12-month battery life, tamper detection, and secure tracking for law enforcement operations",
