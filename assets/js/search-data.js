@@ -461,6 +461,11 @@ ninja.data = [{
           description: "Wi-Fi controlled home automation system with up to 16 relay channels — evolved through 3 versions from prototype to professional wall-installed PCB, controlling all home lighting and appliances via smartphone",
           section: "Projects",handler: () => {
               window.location.href = "/projects/21_project/";
+            },},{id: "projects-smart-wi-fi-touch-switch",
+          title: 'Smart Wi-Fi Touch Switch',
+          description: "IoT touch switch that replaces any standard wall switch — touch-sensitive panel with LED indication, relay-based load switching, and remote control from anywhere in the world via smartphone",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/22_project/";
             },},{id: "projects-electronic-impound-amp-monitoring-unit",
           title: 'Electronic Impound &amp;amp; Monitoring Unit',
           description: "Ultra-low-power vehicle impound monitoring system with 12-month battery life, tamper detection, and secure tracking for law enforcement operations",
