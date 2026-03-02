@@ -471,6 +471,11 @@ ninja.data = [{
           description: "PIC-based alarm system monitoring hospital medical gas pipeline lines (Oxygen, Vacuum, Air-4-bar, Air-7-bar) — detects pressure faults, provides LCD status display, visual LED indicators, and audible alarm with fault-cleared feedback",
           section: "Projects",handler: () => {
               window.location.href = "/projects/23_project/";
+            },},{id: "projects-universal-embedded-systems-learning-kit",
+          title: 'Universal Embedded Systems Learning Kit',
+          description: "All-in-one embedded learning platform supporting AVR, PIC, Arduino, and ARM — packed with modules and interfaces on a 4-wheel robot chassis for hands-on microcontroller programming education",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/24_project/";
             },},{id: "projects-electronic-impound-amp-monitoring-unit",
           title: 'Electronic Impound &amp;amp; Monitoring Unit',
           description: "Ultra-low-power vehicle impound monitoring system with 12-month battery life, tamper detection, and secure tracking for law enforcement operations",
