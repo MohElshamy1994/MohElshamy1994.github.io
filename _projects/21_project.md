@@ -69,11 +69,21 @@ Designed and deployed a **complete Wi-Fi home automation system** capable of con
 
 ### Version 3 — Professional Manufactured PCB
 
+<div class="row justify-content-sm-center">
+    <div class="col-sm-5 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/14- Complete Home Automation IOT Project/V3/App.jpg" title="Smart Controller Android App" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    "Smart Controller" Android app — 5 configurable control panels for managing all relay channels from a smartphone over Wi-Fi.
+</div>
+
 - Single-board 16-channel design — all relays on one custom manufactured PCB
 - ULN2003 IC arrays for reliable relay driver isolation
 - DIN-rail compatible screw terminal blocks on all sides
 - ESP8266 module socket for easy replacement
 - Clean professional PCB fabrication — green solder mask, silkscreen
+- **Smart Controller Android app** — 5 control panels, Wi-Fi control from smartphone
 
 ---
 
