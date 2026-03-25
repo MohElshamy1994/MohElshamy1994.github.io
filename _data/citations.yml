@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-03-23'
+  last_updated: '2026-03-25'
 papers:
   OIW1wDYAAAAJ:2osOgNQ5qMEC:
     citations: 4
@@ -13,14 +13,22 @@ papers:
     citations: 2
     title: On the Thermal Vulnerability of 3D-Stacked High-Bandwidth Memory Architectures
     year: '2025'
+  OIW1wDYAAAAJ:Se3iqnhoufwC:
+    citations: 0
+    title: 'ICBPI: Accurate and Validated Fine-Grained Power Estimation with Application to Thermal Hardware Trojan Detection and Localization in SOCs'
+    year: '2026'
   OIW1wDYAAAAJ:Tyk-4Ss8FVUC:
     citations: 6
     title: Fine-grained clustering-based power identification for multicores
     year: '2024'
-  OIW1wDYAAAAJ:W7OEmFMy1HYC:
+  OIW1wDYAAAAJ:UebtZRa9Y70C:
     citations: 4
     title: 'Cluster-bpi: Efficient fine-grain blind power identification for defending against hardware thermal trojans in multicore socs'
     year: '2024'
+  OIW1wDYAAAAJ:W7OEmFMy1HYC:
+    citations: 0
+    title: 'Cluster-BPI: Efficient Fine-Grain Blind Power Identification for Defending against Hardware Thermal Trojans in Multicore SoCs'
+    year: '2025'
   OIW1wDYAAAAJ:WF5omc3nYNoC:
     citations: 3
     title: 'iThermTroj: Exploiting Intermittent Thermal Trojans in Multi-Processor System-on-Chips'
@@ -45,6 +53,10 @@ papers:
     citations: 3
     title: "Real\u2010time control design and implementation of ball balancer system based on machine learning and machine vision"
     year: '2022'
+  OIW1wDYAAAAJ:roLk4NBRz8UC:
+    citations: 0
+    title: 'SentinelEdge: An Attention-Based Defense for Real-Time Mitigation of Adversarial Thermal Manipulations in System-on-Chips'
+    year: '2026'
   OIW1wDYAAAAJ:u-x6o8ySG0sC:
     citations: 31
     title: Efficient deep learning models for brain tumor detection with segmentation and data augmentation techniques
