@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-03-25'
+  last_updated: '2026-04-03'
 papers:
   OIW1wDYAAAAJ:2osOgNQ5qMEC:
     citations: 4
@@ -34,7 +34,7 @@ papers:
     title: 'iThermTroj: Exploiting Intermittent Thermal Trojans in Multi-Processor System-on-Chips'
     year: '2025'
   OIW1wDYAAAAJ:Y0pCki6q_DkC:
-    citations: 8
+    citations: 9
     title: 'Matter: Multi-stage adaptive thermal trojan for efficiency & resilience degradation'
     year: '2025'
   OIW1wDYAAAAJ:_FxGoFyzp5QC:
@@ -54,7 +54,7 @@ papers:
     title: "Real\u2010time control design and implementation of ball balancer system based on machine learning and machine vision"
     year: '2022'
   OIW1wDYAAAAJ:roLk4NBRz8UC:
-    citations: 0
+    citations: 1
     title: 'SentinelEdge: An Attention-Based Defense for Real-Time Mitigation of Adversarial Thermal Manipulations in System-on-Chips'
     year: '2026'
   OIW1wDYAAAAJ:u-x6o8ySG0sC:
