@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-01'
+  last_updated: '2026-05-15'
 papers:
   OIW1wDYAAAAJ:2osOgNQ5qMEC:
     citations: 4
@@ -46,7 +46,7 @@ papers:
     title: Stabilization and tracking enhancement of the ball on the plate system based on Pseudo-PD controller and machine learning algorithms
     year: '2021'
   OIW1wDYAAAAJ:eQOLeE2rZwMC:
-    citations: 13
+    citations: 15
     title: 'P-yolov8: Efficient and accurate real-time detection of distracted driving'
     year: '2024'
   OIW1wDYAAAAJ:qjMakFHDy7sC:
@@ -58,11 +58,11 @@ papers:
     title: 'SentinelEdge: An Attention-Based Defense for Real-Time Mitigation of Adversarial Thermal Manipulations in System-on-Chips'
     year: '2026'
   OIW1wDYAAAAJ:u-x6o8ySG0sC:
-    citations: 34
+    citations: 35
     title: Efficient deep learning models for brain tumor detection with segmentation and data augmentation techniques
     year: '2022'
   OIW1wDYAAAAJ:u5HHmVD_uO8C:
-    citations: 28
+    citations: 29
     title: Efficient brain tumor detection based on deep learning models
     year: '2021'
   OIW1wDYAAAAJ:ufrVoPGSRksC:
