@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-15'
+  last_updated: '2026-06-12'
 papers:
   OIW1wDYAAAAJ:2osOgNQ5qMEC:
     citations: 4
@@ -34,7 +34,7 @@ papers:
     title: 'iThermTroj: Exploiting Intermittent Thermal Trojans in Multi-Processor System-on-Chips'
     year: '2025'
   OIW1wDYAAAAJ:Y0pCki6q_DkC:
-    citations: 9
+    citations: 10
     title: 'Matter: Multi-stage adaptive thermal trojan for efficiency & resilience degradation'
     year: '2025'
   OIW1wDYAAAAJ:_FxGoFyzp5QC:
@@ -42,11 +42,11 @@ papers:
     title: Brain tumor classification with convolutional neural network
     year: '2021'
   OIW1wDYAAAAJ:d1gkVwhDpl0C:
-    citations: 2
+    citations: 3
     title: Stabilization and tracking enhancement of the ball on the plate system based on Pseudo-PD controller and machine learning algorithms
     year: '2021'
   OIW1wDYAAAAJ:eQOLeE2rZwMC:
-    citations: 15
+    citations: 16
     title: 'P-yolov8: Efficient and accurate real-time detection of distracted driving'
     year: '2024'
   OIW1wDYAAAAJ:qjMakFHDy7sC:
