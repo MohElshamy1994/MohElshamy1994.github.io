@@ -1,17 +1,17 @@
 metadata:
-  last_updated: '2026-06-26'
+  last_updated: '2026-08-14'
 papers:
   OIW1wDYAAAAJ:2osOgNQ5qMEC:
     citations: 4
     title: Enhancement of the Ball Balancing on the Plate using hybrid PD/Machine learning techniques
     year: '2021'
   OIW1wDYAAAAJ:9yKSN-GCB0IC:
-    citations: 4
+    citations: 5
     title: Stabilization enhancement of the ball on the plate system (BOPS) based on Takagi-Sugeno (TS) fuzzy modeling
     year: '2021'
   OIW1wDYAAAAJ:LkGwnXOMwfcC:
     citations: 2
-    title: On the Thermal Vulnerability of 3D-Stacked High-Bandwidth Memory Architectures
+    title: On the thermal vulnerability of 3D-stacked high-bandwidth memory architectures
     year: '2025'
   OIW1wDYAAAAJ:Se3iqnhoufwC:
     citations: 0
@@ -31,10 +31,10 @@ papers:
     year: '2025'
   OIW1wDYAAAAJ:WF5omc3nYNoC:
     citations: 3
-    title: 'iThermTroj: Exploiting Intermittent Thermal Trojans in Multi-Processor System-on-Chips'
+    title: 'iThermTroj: Exploiting intermittent thermal trojans in multi-processor system-on-chips'
     year: '2025'
   OIW1wDYAAAAJ:Y0pCki6q_DkC:
-    citations: 11
+    citations: 12
     title: 'Matter: Multi-stage adaptive thermal trojan for efficiency & resilience degradation'
     year: '2025'
   OIW1wDYAAAAJ:_FxGoFyzp5QC:
@@ -47,7 +47,7 @@ papers:
     year: '2021'
   OIW1wDYAAAAJ:eQOLeE2rZwMC:
     citations: 16
-    title: 'P-yolov8: Efficient and accurate real-time detection of distracted driving'
+    title: 'P-YOLOv8: Efficient and accurate real-time detection of distracted driving'
     year: '2024'
   OIW1wDYAAAAJ:qjMakFHDy7sC:
     citations: 3
@@ -58,14 +58,14 @@ papers:
     title: 'Sentineledge: An attention-based defense for real-time mitigation of adversarial thermal manipulations in system-on-chips'
     year: '2026'
   OIW1wDYAAAAJ:u-x6o8ySG0sC:
-    citations: 35
+    citations: 38
     title: Efficient deep learning models for brain tumor detection with segmentation and data augmentation techniques
     year: '2022'
   OIW1wDYAAAAJ:u5HHmVD_uO8C:
-    citations: 30
+    citations: 31
     title: Efficient brain tumor detection based on deep learning models
     year: '2021'
   OIW1wDYAAAAJ:ufrVoPGSRksC:
     citations: 1
-    title: 'CPINN-ABPI: Physics-Informed Neural Networks for Accurate Power Estimation in MPSoCs'
+    title: 'CPINN-ABPI: Physics-informed neural networks for accurate power estimation in MPSoCs'
     year: '2025'
