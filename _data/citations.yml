@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-14'
+  last_updated: '2026-09-04'
 papers:
   OIW1wDYAAAAJ:2osOgNQ5qMEC:
     citations: 4
@@ -10,7 +10,7 @@ papers:
     title: Stabilization enhancement of the ball on the plate system (BOPS) based on Takagi-Sugeno (TS) fuzzy modeling
     year: '2021'
   OIW1wDYAAAAJ:LkGwnXOMwfcC:
-    citations: 2
+    citations: 3
     title: On the thermal vulnerability of 3D-stacked high-bandwidth memory architectures
     year: '2025'
   OIW1wDYAAAAJ:Se3iqnhoufwC:
@@ -62,7 +62,7 @@ papers:
     title: Efficient deep learning models for brain tumor detection with segmentation and data augmentation techniques
     year: '2022'
   OIW1wDYAAAAJ:u5HHmVD_uO8C:
-    citations: 31
+    citations: 32
     title: Efficient brain tumor detection based on deep learning models
     year: '2021'
   OIW1wDYAAAAJ:ufrVoPGSRksC:
