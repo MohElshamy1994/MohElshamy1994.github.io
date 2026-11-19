@@ -646,9 +646,7 @@ third_party_libraries:
 # Get external JSON data
 # -----------------------------------------------------------------------------
 
-jekyll_get_json:
-  - data: resume
-    json: assets/json/resume.json # it can also be an url
+jekyll_get_json: [] # resume.json (template) removed so the CV page uses _data/cv.yml
 
 jsonresume:
   - basics
