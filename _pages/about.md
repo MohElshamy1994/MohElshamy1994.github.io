@@ -33,7 +33,9 @@ I am a Ph.D. Candidate in Electrical and Computer Engineering at New Mexico Stat
 
 ## Research & Expertise
 
-My research focuses on **SoC power and thermal modeling**, power management, and hardware performance optimization. I have extensive hands-on experience delivering production-ready PCB designs for:
+My research focuses on **SoC power and thermal modeling**, power management, and hardware performance optimization. I am also a member of NMSU's **Precision Ranching** team, where I develop the hardware for a **virtual fence livestock collar** with LoRaWAN and cellular/satellite connectivity.
+
+I have extensive hands-on experience delivering production-ready PCB designs for:
 
 - **Industrial Control Systems**
 - **IoT and Smart Devices**
@@ -46,12 +48,12 @@ I specialize in:
 
 - **Multi-layer PCB Design** (up to 8 layers) using Altium Designer
 - **High-Speed Digital Design** with power integrity and EMI-aware layout
-- **Embedded Systems Development** on AVR, PIC, ESP32, and Nvidia Jetson platforms
+- **Embedded Systems Development** on AVR, PIC, ESP32, Nordic nRF91, and Nvidia Jetson platforms
 - **Power Electronics** including PMIC, BMS, and motor control systems
-- **Communication Protocols**: UART, I2C, SPI, CAN, USB, Ethernet, GSM/GPRS, GPS
+- **Communication Protocols**: UART, I2C, SPI, CAN, USB, Ethernet, GSM/GPRS, GPS, LoRaWAN, LTE-M/NB-IoT
 
 ## Professional Background
 
 Previously, I served as Senior Hardware Design Engineer at Tatweer Middle East & Africa (UAE), where I designed automotive-grade telematics devices and solar MPPT controllers. Earlier, I managed the Multi-Layer PCB Laboratory at the Egyptian Armed Forces Research Center, overseeing fabrication and quality assurance for complex defense electronics projects.
 
-I hold a **Master's degree in Power Electronics and Control Engineering** from Menoufia University (Egypt) and am currently pursuing dual graduate degrees (Ph.D. and M.Sc.) at NMSU with a perfect 4.0 GPA.
+I hold a **Master's degree in Power Electronics and Control Engineering** from Menoufia University (Egypt) and an **M.Sc. in Electrical and Computer Engineering** from NMSU (May 2026). I am completing my Ph.D. at NMSU (expected May 2027) with a perfect 4.0 GPA.

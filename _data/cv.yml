@@ -9,15 +9,15 @@
       value: +1-575-639-8399
     - name: Address
       value: 520 Sweet Avenue, Las Cruces, NM 88001
-    - name: Visa Status
-      value: F1
+    - name: Status
+      value: U.S. Permanent Resident (Green Card)
 
 - title: Education
   type: time_table
   contents:
     - title: PhD in Electrical and Computer Engineering (ECE)
       institution: New Mexico State University (NMSU), Las Cruces, NM, USA
-      year: 2024 - 2026
+      year: 2024 - 2027 (Expected)
       description:
         - Major Electrical and Computer Engineering
         - CGPA 4.00/4.00
@@ -25,7 +25,7 @@
 
     - title: Master of Science (MSc.) in Electrical and Computer Engineering (ECE)
       institution: New Mexico State University (NMSU), Las Cruces, NM, USA
-      year: 2023 - 2026
+      year: 2024 - 2026
       description:
         - Major Electrical and Computer Engineering
         - CGPA 4.00/4.00
@@ -61,6 +61,7 @@
         - SoC Power and thermal Modeling
         - Power and Thermal Management
         - Hardware Performance optimization
+        - Virtual fence livestock collar hardware for the Precision Ranching team (LoRaWAN, cellular/satellite IoT)
 
     - title: Senior Hardware Design Engineer
       institution: Tatweer Middle East & Africa - Government Sector, Abu Dhabi, UAE
@@ -106,16 +107,27 @@
         - Arduino Boards (All variants)
         - ESP32 controllers (All variants)
         - PIC and AVR MCUs
-        - Xilinx Zybo Z7
+        - Nordic nRF9151
+        - Xilinx Zybo Z7 and Zynq-7000
         - Nvidia Jetson boards
     - title: Communication Protocols
       items:
         - UART, I2C, SPI, RS-232, RS-485
         - Wi-Fi, GSM/GPRS, GPS
+        - LoRaWAN, LTE-M/NB-IoT
         - USB 2.0 (FS/HS)
         - Ethernet (10/100 via PHY, RMII/MII)
         - OBD-II, CAN
         - DDR3L, eMMC, QSPI
+    - title: IoT & Wireless
+      items:
+        - LoRaWAN (ChirpStack, Semtech SX1262)
+        - Cellular and satellite IoT (LTE-M/NB-IoT, NTN)
+        - PCB antenna integration
+    - title: Prototyping & Manufacturing
+      items:
+        - SMT assembly and reflow profiling
+        - 3D-printed enclosures (resin, TPU)
     - title: Design Expertise
       items:
         - Multi-layer PCB Design (up to 8 layers)
