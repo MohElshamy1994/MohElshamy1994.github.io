@@ -476,6 +476,11 @@ ninja.data = [{
           description: "All-in-one embedded learning platform supporting AVR, PIC, Arduino, and ARM — packed with modules and interfaces on a 4-wheel robot chassis for hands-on microcontroller programming education",
           section: "Projects",handler: () => {
               window.location.href = "/projects/24_project/";
+            },},{id: "projects-virtual-fence-livestock-collar",
+          title: 'Virtual Fence Livestock Collar',
+          description: "Precision-ranching collar that keeps cattle inside virtual boundaries, with LoRaWAN and cellular/satellite connectivity for remote rangelands",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/25_project/";
             },},{id: "projects-electronic-impound-amp-monitoring-unit",
           title: 'Electronic Impound &amp;amp; Monitoring Unit',
           description: "Ultra-low-power vehicle impound monitoring system with 12-month battery life, tamper detection, and secure tracking for law enforcement operations",
